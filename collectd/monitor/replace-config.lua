@@ -1,4 +1,4 @@
-#!/usr/bin/env luajit
+#!/usr/bin/env lua
 
 local argparse = require('argparse')
 local parser = argparse("replace-config", "Replace the collectd's config and restart the daemon")
